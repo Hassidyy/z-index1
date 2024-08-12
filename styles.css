@@ -1,0 +1,31 @@
+.custom-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .card {
+    margin: 10px;
+    width: 18rem;
+    position: absolute;
+  }
+  
+  .card-1 {
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
+  
+  .card-2 {
+    z-index: 2;
+    top: 30px;
+    left: 30px;
+  }
+  
+  .card-3 {
+    z-index: 3;
+    top: 60px;
+    left: 60px;
+  }
+  
